@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.log_in{
+    background: lightblue;
+    height: 5vh;
+    width: 8vw;
+    position: absolute;
+    right: 2%;
+    top: 20%;
+}
+.log_in a{
+    text-decoration: none;
+    color: black;
+}
+.log_in a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.Nav1{
+    width: 100%;
+    height: 11vh;
+    position: absolute;
+    top: 0%;
+    background: #1abc9c;
+	
+
+}
+.navition{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+   
+    
+}
+.navition a{
+    margin-top: 7mm;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.navition a:hover{
+   
+   
+    background: gray;
+    
+    
+    font-weight: 150px;
+   
+   
+} 
+.main_logo{
+    width:15vw;
+    height: 10vh;
+    border-radius: 5%;
+    
+    float: left;
+   
+
+}
+#medicine{
+    width: 100%;
+    height: 100vh;
+   
+    
+}
+#second_par{
+    width: 100%;
+    height: 190vh;
+    background: linear-gradient(to right,#1abc9c,#3498db);
+    position: relative;
+    margin-bottom: 2em;
+    border: 1px solid black;
+
+ 
+ 
+    
+   
+}
+.news_box img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+#Purpose_list{
+    width: 60vw;
+    height: 80vh;
+    overflow-x: hidden;
+     overflow-y: hidden; 
+    padding: 2cm;
+    text-align: start;
+    padding-top: 0%;
+    background: rgb(97, 233, 222);
+    box-shadow: 0px 0px 10px gray;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3%;
+    border-radius: 5%;
+    margin-left:10% ;
+    
+}
+
+#Purpose_list li{
+    
+    margin-left: 2%;
+   
+}
+#detail{
+   margin-left: 10cm;
+   width: 10vw;
+   margin-top: 5%;
+  
+   
+}
+#detail a{
+ text-decoration: none;
+   color: black;
+}
+#second_sec{
+    width: 60vw;
+    height: 80vh;
+   
+    border-radius: 5%;
+    position: absolute;
+    margin-top: 5%;
+    right: 10%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: rgb(97, 233, 222);
+   box-shadow: 0px 0px 15px gray;
+}
+#Third_par div
+{
+    margin-top: 5%;
+    margin-right: 15%;
+    
+    
+}
+#Third_par{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+   
+}
+
+
+#Final_par{
+    width: 100%;
+    height: 20vh;
+    border: 2px solid black;
+    background: #1abc9c;
+
+}
+#second_head{
+    margin: 3%;
+
+}
+#second_sec  h3,p{
+    margin: 2%;
+    
+}
+
+
+#detail  :hover{
+    color: red;
+}
+
+#news{
+    width: 100%;
+    height: 90vh;
+   
+    display: flex;
+   
+    justify-content: space-around;
+    margin-bottom: 3em;
+
+}
+ .news_box{
+    margin-top: 2%;
+    width: 30vw;
+    height: 50vh;
+    
+}
+.news_box a{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+.news_box a:hover{
+
+    color:blue;
+    font-weight: 250px;
+   
+}
+.news_box img:hover{
+
+    box-shadow: 0px 0px 10px #000;
+   
+} 
+
+#copy{
+    margin-top: 3%;
+    text-align: center;
+}
+#mymedicine{
+    
+   margin-left: 42%;
+}
+
+#about{
+    margin-top: 6em;
+    width: 100%;
+    height: auto;
+    /* margin-left: 20em; */
+  
+    border-radius: 5%;
+    padding: 5%;
+    margin-bottom: 2%;
+    display: flex;
+}
+#about p{
+    font-size: 20px;
+    margin: 5%;
+}
+#img_box{
+    width: 30vw;
+    height: 80vh;
+    margin-top: 1em;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 5%;
+    overflow: hidden;
+    margin-left: 3em;
+}
+#about_artical{
+    width: 50vw;
+    height: auto;
+    
+}
